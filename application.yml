@@ -1,16 +1,16 @@
 spring:  
   profiles:
     active:
-    -dev
+    - dev
  
 ---
 spring:  
-    profiles:dev
+    profiles: dev
     application:
-      name:shiyancloud-config-shiyan-dev
+      name: shiyancloud-config-shiyan-dev
   
  ---
  spring:
-    profiles:test
+    profiles: test
     application:
-      name:shiyancloud-config-shiyan-test
+      name: shiyancloud-config-shiyan-test
