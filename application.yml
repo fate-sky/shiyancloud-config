@@ -1,16 +1,19 @@
-spring:  
-  profiles:
-    active:
-    - dev
- 
+spring:
+    profiles:
+        active:
+        - dev
+
 ---
-spring:  
-    profiles: dev
+spring:
+    profiles: dev #开发环境
     application:
-      name: shiyancloud-config-shiyan-dev
-  
- ---
- spring:
-    profiles: test
+        name: microservicecloud-config-my-dev
+        
+---
+spring:
+    profiles: test #测试环境
     application:
-      name: shiyancloud-config-shiyan-test
+        name: microservicecloud-config-my-test
+        
+        
+#UTF8格式保存
