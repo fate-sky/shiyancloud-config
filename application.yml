@@ -1,10 +1,10 @@
-spring:
+spring:  
   profiles:
     active:
     -dev
  
 ---
-spring:
+spring:  
   profiles:dev
   application:
     name:shiyancloud-config-shiyan-dev
